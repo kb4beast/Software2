@@ -1,7 +1,15 @@
 
-public class Organization {
+public abstract class Organization {
 	/*
-	 * Methods:
-	 * Setters and Getters for fields
+	 *Attributes:
+	 *firstName
+	 *lastName
+	 *middleName
+	 *positionTitle
+	 *personalNumber
+	 *departmentName
+	 *email
+	 *organizationName
+	 *workNumber
 	 */
 }
