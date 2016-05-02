@@ -1,0 +1,49 @@
+package Project;
+import java.io.File;
+import java.sql.Date;
+
+
+public class Question {	
+	private boolean answer;
+	private int numberofcrossing;
+	private String supporting_answer;
+	private Date date;
+	private File fileAttachment;
+	
+	public Question(boolean ansr) {
+		ansr = answer;
+	}
+
+	public int getNumberofcrossing() {
+		return numberofcrossing;
+	}
+
+	public void setNumberofcrossing(int numberofcrossing) {
+		this.numberofcrossing = numberofcrossing;
+	}
+
+	public String getSupporting_answer() {
+		return supporting_answer;
+	}
+
+	public void setSupporting_answer(String supporting_answer) {
+		this.supporting_answer = supporting_answer;
+	}
+
+	public Date getDate() {
+		return date;
+	}
+
+	public void setDate(Date date) {
+		this.date = date;
+	}
+
+	public File getFileAttachment() {
+		return fileAttachment;
+	}
+
+	public void setFileAttachment(File fileAttachment) {
+		this.fileAttachment = fileAttachment;
+	}
+
+}
